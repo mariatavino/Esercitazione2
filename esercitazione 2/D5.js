@@ -30,11 +30,13 @@ for (let i = (pets.length-1) ; i >= 0 ; i--) {
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
 */
+/*
 let primo = pets[0];
 for (let i = 0; i < pets.length; i++) {
   pets[i] = pets[i+1];
 }
-pets[pets.length-1]=primo;
+pets[pets.length-1]=primo;*/
+pets.push(pets.shift());
 console.log(pets);
 /* ESERCIZIO 5
     Dato il seguente array di oggetti, scrivi del codice per aggiungere ad ognuno di essi una proprietà "licensePlate" con valore a tua scelta.
