@@ -1,0 +1,119 @@
+/*  
+bg blu grande #222F3F 
+bg blu piccolo #364759
+bg arancione #F56600
+bg pagina #E9EDEE
+colore txt blu #438F99 */
+body{
+    background-color: #E9EDEE ;
+    line-height: 1.62;
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header>figure,footer>figure{
+    background-color: #222F3F;
+}
+header>nav>ul>li>a:link, header>nav>ul>li>a:visited{
+    text-decoration: none;
+    color: white;
+}
+header nav a:link, header nav a:visited{
+    text-decoration: none;
+}
+nav>ul, footer>p{
+    background-color: #364759;
+    font: white;
+    font-size: small;
+}
+header nav ul{
+    text-align: left;
+}
+header nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding-left: 1em;
+}
+header figure {
+    text-align: left;
+    margin: auto;
+    max-height: 3em;
+}
+header figure img{
+    max-height: 3em;
+}
+header nav p {
+    color: white;
+    padding: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: #F56600;
+}
+
+main div{
+    background-image:url(../images/bg-image.png) ;
+    height: 8em;
+    padding-top: 2em;
+    color: white;
+    font-weight: bold;
+    width: max-contentS;
+}
+h1{
+    font-size: x-large;
+    padding: 0.5em;
+}
+main div p{
+    padding-top: 0.5em;
+}
+
+main section:first-of-type {
+    text-align: left;
+    background-color: white;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+main section:first-of-type img{
+    width:23%;
+    height: 15em;
+    margin: 0.65em;
+    border-radius: 2em;
+    border-style: none;
+    box-shadow: rgba(129, 129, 129, 0.753);
+    box-shadow: 1px 5px 6px ;
+}
+main section:first-of-type h2{
+    padding: 0.5em;
+    padding-left:1.75em;
+    font-weight: bold;
+}
+span a:link, span a:visited{
+    text-decoration: none;
+    font-size: small;
+    color: #438F99;
+    padding-left: 1em;
+}
+.Img{
+    padding-bottom: 1em;
+}
+.Img figcaption{
+    font-weight: bold;
+}
+.Img img{
+    width: 100%;
+}
+
+footer>p>a:link, footer>p>a:visited{
+    text-decoration: underline;
+    color: white;
+}
+
+footer p {
+    padding: 0.5em;
+}
+
+footer figure img{
+    padding: 1.5em;
+    width: 5em;
+}
